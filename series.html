@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="КіноМонстр - це портал про кіно"/>
+    <meta name="keywords" content="фільми, фільми онлайн, hd"/>
+    <title>КіноМонстр</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html">КіноМонстр</a></h1>
+                    <h2>Кіно - наша пристрасть!</h2>
+                </div>
+            </div>
+
+            <div class="menubar">
+
+                <ul class="menu">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="films.html">Фільми</a></li>
+                    <li class="selected"><a href="series.html">Серіали</a></li>
+                    <li><a href="rating.html">Рейтинг фільмів</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="site_content">
+
+            <div class="sidebar_container">
+
+                <div class="sidebar">
+                    <h2>Пошук</h2>
+                    <form method="post" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="ваш запит" />
+                        <input type="submit" class="btn" value="знайти" />
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Вхід</h2>
+                    <form method="post" action="#" id="login">
+
+                        <input type="text" name="login_field" placeholder="логін" />
+                        <input type="password" name="password_field" placeholder="пароль" />
+                        <input type="submit" class="btn" value="вхід" />
+                        <div class="lables_passreg_text">
+                            <span><a href="#">забули пароль?</a></span> | <span><a href="#">реєстрація</a></span>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Фільтр</h2>
+                    <input type="text" id="filter-title" placeholder="Назва фільму/серіалу">
+                    <input type="text" id="filter-genre" placeholder="Жанр">
+                    <input type="number" id="filter-year" placeholder="Рік випуску">
+                    <input type="number" id="filter-rating" placeholder="Рейтинг (0-10)">
+                </div>
+
+                <div class="sidebar">
+                    <h2>Новини</h2>
+                    <span>31.03.2019</span>
+                    <p>Ми запустили розширений пошук!</p>
+                    <a href="#">читати</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Рейтинг фільмів</h2>
+                    <ul>
+                        <li><a href="show.html">Інтерстеллар</a><span class="rating_sidebar">8.1</span></li>
+                        <li><a href="show2.html">Матриця</a><span class="rating_sidebar">8.0</span></li>
+                        <li><a href="show1.html">Шалений Макс</a><span class="rating_sidebar">7.5</span></li>
+                        <li><a href="show3.html">Хмарний атлас</a><span class="rating_sidebar">7.4</span></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Рейтинг сериалов</h2>
+                    <ul>
+                        <li><a href="prestol.html">Гра престолів</a><span class="rating_sidebar">9.5</span></li>
+                        <li><a href="sherlok.html">Шерлок</a><span class="rating_sidebar">9.2</span></li>
+                        <li><a href="haus.html">Доктор Хаус</a><span class="rating_sidebar">8.8</span></li>
+                        <li><a href="sverh.html">Надприродне</a><span class="rating_sidebar">8.6</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="content">
+
+                <div class="info_film">
+                    <img src="assets/img/1.png">
+                    <h2>Гра престолів</h2>
+                    Дії серіалу відбуваються на тлі політичних інтриг та боротьби за владу. Король Семи Королівств, Роберт Баратіон, просить свого друга Еддарда Старка стати десницею короля - головним його радником. Він погоджується на цю посаду і підозрює, що його попередника було вбито.
+                    <div class="button"><a href="prestol.html">Дивитися</a></div>
+                    <div class="genre" hidden>Фентезі</div>
+                    <div class="year" hidden>2011</div>
+                    <div class="rating" hidden>9.5</div>
+                </div>
+
+                <div class="info_film">
+                    <img src="assets/img/2.png">
+                    <h2>Доктор Хаус</h2>
+                    Серіал Доктор Хаус розповідає нам про команду лікарів, які мають поставити правильний діагноз пацієнтові та врятувати йому життя. Сам серіал за жанром є медичним детективом з елементами драми.
+                    <div class="button"><a href="haus.html">Дивитися</a></div>
+                    <div class="genre" hidden>Драма</div>
+                    <div class="year" hidden>2004</div>
+                    <div class="rating" hidden>8.8</div>
+                </div>
+
+                <div class="info_film">
+                    <img src="assets/img/3.png">
+                    <h2>Шерлок</h2>
+                    Знаменитий детектив з Бейкер Стріт не любить сидіти, склавши руки. Допомагає Шерлоку Холмсу вірний товариш, лікар за освітою та письменник за покликанням – Ватсон. Водночас ця парочка розкриває гучні злочини, підтримуючи спокійне життя у Лондоні.
+                    <div class="button"><a href="sherlok.html">Дивитися</a></div>
+                    <div class="genre" hidden>Детектив</div>
+                    <div class="year" hidden>2010</div>
+                    <div class="rating" hidden>9.2</div>
+                </div>
+
+                <div class="info_film">
+                    <img src="assets/img/4.png">
+                    <h2>Сверхъестественное</h2>
+                    Це історія про двох братів Сема і Діна, які подорожують на своєму чорному автомобілі Chevrolet Impala США розслідуючи різні паранормальні явища і борючись з породженням зла, такими як примари або демони.
+                    <div class="button"><a href="sverh.html">Дивитися</a></div>
+                    <div class="genre" hidden>Драма</div>
+                    <div class="year" hidden>2005</div>
+                    <div class="rating" hidden>8.6</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>
+            <a href="index.html">Головна</a> |
+            <a href="films.html">Фільми</a> |
+            <a href="series.html">Серіали</a> |
+            <a href="rating.html">Рейтинг фільмів</a> |
+            <a href="contacts.html">Контакти</a> |
+        </p>
+        <p>wh-db.com 2015</p>
+    </div>
+
+    </div>
+    <script src="assets/js/lab1.js"></script>
+</body>
+</html>
