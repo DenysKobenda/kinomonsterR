@@ -367,12 +367,6 @@ td img {
   padding: 0 0 10px 0;
 }
 
-.films_block a {
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-}
-
 .films_block a img {
     transition: transform 0.3s ease;
 }
@@ -389,12 +383,6 @@ td img {
 
 .films_block a:hover {
     transform: translateY(-10px);
-}
-
-.serial_block a {
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
 }
 
 .serial_block a img {
@@ -483,10 +471,6 @@ and (max-device-width : 568px) {
     font: normal 110% 'century gothic', arial;
   }
 
-  .films_block img {
-    width: 43%;
-  }
-
   .posts_content p {
     line-height: 1.5em;
     padding: 3%;
@@ -562,11 +546,5 @@ and (max-device-width : 568px) {
   .send textarea {
     width: 85%;
   }
-
-
-  
-  
-  
-
 
 }	
