@@ -546,5 +546,18 @@ and (max-device-width : 568px) {
   .send textarea {
     width: 85%;
   }
+.films_block img {
+        border-radius: 5px;
+        border: solid 5px #dad7d5;
+        width: 195px;
+        height: 270px;
+    }
+
+    .serial_block img {
+        border-radius: 5px;
+        border: solid 5px #dad7d5;
+        width: 195px;
+        height: 270px;
+    }
 
 }	
