@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Dissalow: /admin/
+Sitemap: https://denyskobenda.github.io/kinomonsterR/sitemap.xml
